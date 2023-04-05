@@ -1,7 +1,6 @@
-<div style="display: flex; align-items: center;">
-  <img src="https://raw.githubusercontent.com/Nqtural/CFSBE/master/res/icon-full.png" alt="Image" style="width: 50px;">
-  <h1 style="margin-left: 20px;">CFSBE</h1>
-</div>
+<img src="https://raw.githubusercontent.com/Nqtural/CFSBE/master/res/icon-full.png" alt="Image" style="width: 50px; float: right;">
+
+# CFSBE
 ChatGPT Forcefed Steroids Browser Extension is a browser extension for enhancing ChatGPT.
 
 ## Compatabillity
