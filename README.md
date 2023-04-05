@@ -1,4 +1,15 @@
-# Command to build extension
-`zip -r CFSBE.xpi CFSBE -x "CFSBE/.git/*"`
+# CFSBE
+ChatGPT Forcefed Steroids Browser Extension is a browser extension for enhancing ChatGPT.
 
-Remember to use Firefox Developer Edition if you want to be able to install this as a permanent browser extension.
+## Compatabillity
+This extension only works on Firefox. Use Firefox Developer Edition to install this as a permanent browser extension.
+
+## Features
+- Toggelable moderation request blocking
+- Quick access to different jailbreaks
+- Modified start page and ChatGPT "profile" picture
+- Removes visual bloat
+
+## How to build .xpi file
+`git clone https://github.com/Nqtural/CFSBE`
+`zip -r CFSBE.xpi CFSBE -x "CFSBE/.git/*"`
