@@ -1,0 +1,73 @@
+body {
+    background-color: #202123;
+    color: #ececf1;
+    font-family: Söhne,ui-sans-serif,system-ui,-apple-system,
+    Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,
+    Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,
+    Segoe UI Symbol,Noto Color Emoji;
+    text-align: center;
+    width: 300px;
+    height: 350px;
+}
+
+h3 {
+    display: inline-block;
+}
+
+label {
+    display: inline;
+    left: 16px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 46px;
+    height: 24px;
+}
+
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+#request-blocking-switch:focus {
+    outline: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #0e0e0f;
+    -webkit-transition: .1s ease-in-out;
+    transition: .1s ease-in-out;
+    border-radius: 22px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 22px;
+    left: 1px;
+    bottom: 1px;
+    background-color: white;
+    -webkit-transition: .1s ease-in-out;
+    transition: .1s ease-in-out;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #0ea982;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(22px);
+    -ms-transform: translateX(22px);
+    transform: translateX(22px);
+}

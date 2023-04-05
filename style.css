@@ -1,0 +1,96 @@
+/* Hide elements */
+
+.h-6.w-6,
+a.underline,
+div.px-3.pt-2.pb-3.text-center.text-xs {
+    display: none;
+}
+
+.items-start.text-center {
+    background-image: url("res/start.png");
+    filter: grayscale(50%);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+}
+
+.items-start.text-center > * {
+    display: none;
+}
+
+div.absolute.bottom-0.left-0.w-full.border-t.bg-white {
+    margin-bottom: 20px;
+}
+
+div.relative.rounded-sm.text-white.flex.items-center.justify-center {
+    background-image: url("res/chatgpt-profile.png");
+    filter: grayscale(50%);
+    background-size: cover;
+    border-radius: 50px;
+    height: 44px;
+    width: 44px;
+}
+
+.h-32 {
+    height: 7rem;
+}
+
+#dropdown-menu {
+    border-radius: .25rem;
+    border: 1px solid #ff00f4;
+    background-color: #343541;
+}
+
+#dropdown-btn {
+    height: 48px;
+    width: 48px;
+    position: absolute;
+    background-color: #40414f;
+    bottom: 0px;
+    right: 35px;
+    border: 1px solid #303038;
+    border-radius: 375rem;
+    box-shadow: 0 0 15px rgba(0,0,0,.1);
+    transition: all 0.3s;
+}
+
+#dropdown-btn:hover {
+    filter: brightness(120%);
+    transition: all 0.3s;
+}
+
+#icon-wrapper {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    left: 16px;
+}
+
+#lock-icon {
+    position: absolute;
+    height: 100%;
+}
+
+.jailbreakButton {
+    align-items: center;
+    display: inline-flex;
+    padding: .5rem .75rem;
+    pointer-events: auto;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: rgba(217,217,227,1);
+    background-color: #343541;
+    border-radius: .25rem;
+    height: 100%;
+    float: top;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-color: transparent;
+    transition: all 0.3s;
+}
+
+.jailbreakButton:hover {
+    background-color: #40414f;
+    text-decoration-color: rgba(217,217,227,1);
+    transition: all 0.3s;
+}
