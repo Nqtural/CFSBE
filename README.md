@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/Nqtural/CFSBE/master/res/icon-full.png" alt="Image" style="width: 50px; float: right;">
+<img src="https://raw.githubusercontent.com/Nqtural/CFSBE/master/res/icon-full.png" alt="Image" style="width: 50px;">
 
 # CFSBE
 ChatGPT Forcefed Steroids Browser Extension is a browser extension for enhancing ChatGPT.
@@ -14,4 +14,5 @@ This extension only works on Firefox. Use Firefox Developer Edition to install t
 
 ## How to build .xpi file
 `git clone https://github.com/Nqtural/CFSBE`
+
 `zip -r CFSBE.xpi CFSBE -x "CFSBE/.git/*"`
