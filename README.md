@@ -13,5 +13,5 @@ This extension only works on Firefox. Use Firefox Developer Edition to install t
 ## How to build .xpi file
 ```
 git clone https://github.com/Nqtural/CFSBE
-zip -r CFSBE.xpi CFSBE -x "CFSBE/.git/*"
+cd CFSBE && zip -r CFSBE.xpi * -x ".git/*" "README.md"
 ```
